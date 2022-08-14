@@ -54,7 +54,7 @@ module State = {
   };
 
   /** The initial state of the application */
-  let initial_state = {input: None, tasks: [Task.make("Learn Reason")]};
+  let initial_state = {input: None, tasks: [Task.make("Check Done")]};
 
   /** Our reducer works very similarly to other reducers you may have seen
       before. If receives the current state, and an action, and will compute
